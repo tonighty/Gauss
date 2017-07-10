@@ -1,0 +1,40 @@
+table {
+	/*margin: 0 auto;*/
+	border: 20px solid rgb(53, 167, 110);
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border-width: 0px;
+    border: none none;
+}
+
+input[type="button"] {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+    width: 50px;
+    height: 50px;
+}
+
+input[type="button"]:hover {
+    background: rgb(53, 167, 110);
+}
+
+input[type="button"]:active {
+    background: rgb(33, 147, 90);
+    box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 50px;
+    background: rgb(33, 147, 90);
+    color: white;
+}
