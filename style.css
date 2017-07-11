@@ -1,40 +1,27 @@
-table {
-	/*margin: 0 auto;*/
-	border: 20px solid rgb(53, 167, 110);
-}
-
-td {
-    width: 50px;
-    height: 50px;
-    border-width: 0px;
-    border: none none;
-}
-
-input[type="button"] {
-    font-weight: 700;
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
     color: white;
+    padding: 16px 32px;
     text-decoration: none;
-    padding: .8em 1em calc(.8em + 3px);
-    border-radius: 3px;
-    background: rgb(64, 199, 129);
-    box-shadow: 0 -3px rgb(53, 167, 110) inset;
-    transition: 0.2s;
-    width: 50px;
-    height: 50px;
-}
-
-input[type="button"]:hover {
-    background: rgb(53, 167, 110);
-}
-
-input[type="button"]:active {
-    background: rgb(33, 147, 90);
-    box-shadow: 0 3px rgb(33, 147, 90) inset;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 input[type="text"] {
-    width: 50px;
-    height: 50px;
-    background: rgb(33, 147, 90);
-    color: white;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+body {
+    font-size: 19px;
 }
